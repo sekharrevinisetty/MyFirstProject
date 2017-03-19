@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="1" parallel="tests" thread-count="20">
+
+	<test name="TestVatCalculator" parallel="instances" thread-count="20">
+		<classes>
+			<class name="com.abc.test.TestVatCalculator" />
+		</classes>
+	</test>
+</suite>
