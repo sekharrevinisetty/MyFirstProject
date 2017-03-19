@@ -14,5 +14,7 @@ public class TestVatCalculator {
         Assert.assertEquals(calc.getVatOnAmount(100), expected);
         Assert.assertNotEquals(calc.getVatOnAmount(120), expected);
         System.out.println("Vat Amount=="+calc.getVatOnAmount(120));
+        
+        System.out.println("Test one Test one");
     }
 }
